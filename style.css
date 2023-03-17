@@ -1,0 +1,251 @@
+@import url('https://use.fontawesome.com/releases/v6.3.0/css/all.css');
+
+html {
+    font-family: Helvetica;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 6vw;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: xxx-large;
+    margin-top: 0;
+}
+
+h5 {
+    font-size: larger;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+hr {
+    max-width: 66px;
+    border: 1px solid #43B7C9;
+    background-color: #43B7C9;
+    margin-bottom: 26px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: x-large;
+    margin: 0;
+}
+
+.logo {
+    display: inline-flex;
+    align-self: center;
+}
+
+.logo .in {
+    color: #584D62;
+}
+
+.logo .time {
+    color: #59AEBB;
+}
+
+header nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: auto 16px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #A1A1A1;
+}
+
+header nav ul li .active {
+    color: #6F777D;
+    border-bottom: 3px solid #59BFCF;
+}
+
+.jumbotron {
+    background-image: url('./images/slide2.jpg');
+    background-size: cover;
+    min-height: 600px;
+}
+
+.jumbotron .main-message {
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 10px 1% 32px;
+    position: relative;
+    top: 270px;
+    left: 4vw;
+    max-width: fit-content;
+}
+
+.main-cta {
+    background-color: #008CBA;
+    border-radius: 30px;
+    padding: 16px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+main div {
+    padding: 1px 10vw 30px;
+    text-align: center;
+}
+
+.secondary-cta {
+    background-color: #454545;
+    border-radius: 30px;
+    padding: 8px 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    background-color: #EEF0F1;
+}
+
+.services hr {
+    border-color: #474747;
+    background-color: #474747;
+}
+
+.services>div {
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
+    column-gap: 1%;
+    padding: 0;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 22vw;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h4 {
+    font-size: larger;
+}
+
+.card p {
+    margin: auto 16px;
+}
+
+.card-btn {
+    background-color: #454545;
+    max-width: fit-content;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+    margin: 23px;
+}
+
+.newsletter {
+    color: white;
+    background-color: #393F43;
+}
+
+.newsletter hr {
+    border-color: white;
+    background-color: white;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter form #email {
+    width: 26%;
+    background-color: #545A5E;
+    border: none;
+    border-radius: 6px;
+    line-height: 18px;
+    padding: 6px;
+}
+
+.newsletter form .subscribe {
+    margin: 6px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #6BBFFF;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #2F3539;
+    color: white;
+}
+
+footer .site-map {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    min-height: 230px;
+    margin: auto 12vw;
+}
+
+footer .site-map ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .site-map a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .site-map ul li {
+    margin: 3% 0;
+}
+
+footer .site-map .address {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .site-map .links p {
+    text-indent: 6px;
+}
+
+footer .bottom {
+    background-color: #262B2F;
+    padding: 3px;
+    text-align: center;
+}
+
+footer .bottom a {
+    text-decoration: none;
+}
